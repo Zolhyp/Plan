@@ -1,0 +1,138 @@
+23:46:02  [main] 	Initializing Control Panel
+23:46:02  [main] 	Windows Version:  Enterprise  64-bit
+23:46:02  [main] 	XAMPP Version: 7.3.4
+23:46:02  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+23:46:02  [main] 	You are not running with administrator rights! This will work for
+23:46:02  [main] 	most application stuff but whenever you do something with services
+23:46:02  [main] 	there will be a security dialogue or things will break! So think 
+23:46:02  [main] 	about running this application with administrator rights!
+23:46:02  [main] 	XAMPP Installation Directory: "c:\xampp\"
+23:46:02  [main] 	Checking for prerequisites
+23:46:03  [main] 	All prerequisites found
+23:46:03  [main] 	Initializing Modules
+23:46:03  [main] 	Starting Check-Timer
+23:46:03  [main] 	Control Panel Ready
+23:46:31  [Apache] 	Attempting to start Apache app...
+23:46:31  [Apache] 	Status change detected: running
+23:46:32  [mysql] 	Attempting to start MySQL app...
+23:46:32  [mysql] 	Status change detected: running
+23:47:53  [Apache] 	Attempting to stop Apache (PID: 1276)
+23:47:53  [Apache] 	Attempting to stop Apache (PID: 12856)
+23:47:53  [Apache] 	Status change detected: stopped
+23:47:54  [mysql] 	Attempting to stop MySQL app...
+23:47:54  [mysql] 	Status change detected: stopped
+23:53:36  [Apache] 	Status change detected: running
+23:53:36  [mysql] 	Status change detected: running
+23:58:22  [Apache] 	Status change detected: stopped
+23:58:22  [mysql] 	Status change detected: stopped
+23:58:23  [Apache] 	Status change detected: running
+23:58:24  [mysql] 	Status change detected: running
+00:00:40  [Apache] 	Status change detected: stopped
+00:00:40  [mysql] 	Status change detected: stopped
+00:00:41  [Apache] 	Status change detected: running
+00:00:42  [mysql] 	Status change detected: running
+00:07:27  [mysql] 	Status change detected: stopped
+00:07:28  [Apache] 	Status change detected: stopped
+00:07:38  [Apache] 	Status change detected: running
+00:07:39  [mysql] 	Status change detected: running
+00:08:24  [mysql] 	Status change detected: stopped
+00:08:42  [Apache] 	Status change detected: stopped
+00:20:08  [mysql] 	Status change detected: running
+00:24:27  [mysql] 	Status change detected: stopped
+00:30:04  [Apache] 	Status change detected: running
+00:30:05  [mysql] 	Status change detected: running
+00:33:25  [Apache] 	Status change detected: stopped
+00:33:26  [mysql] 	Status change detected: stopped
+01:26:03  [main] 	Deinitializing Modules
+01:26:03  [main] 	Deinitializing Control Panel
+
+23:53:34  [main] 	Initializing Control Panel
+23:53:34  [main] 	Windows Version:  Enterprise  64-bit
+23:53:34  [main] 	XAMPP Version: 7.3.4
+23:53:34  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+23:53:34  [main] 	You are not running with administrator rights! This will work for
+23:53:34  [main] 	most application stuff but whenever you do something with services
+23:53:34  [main] 	there will be a security dialogue or things will break! So think 
+23:53:34  [main] 	about running this application with administrator rights!
+23:53:34  [main] 	XAMPP Installation Directory: "c:\xampp\"
+23:53:34  [main] 	Checking for prerequisites
+23:53:34  [main] 	All prerequisites found
+23:53:34  [main] 	Initializing Modules
+23:53:34  [main] 	Starting Check-Timer
+23:53:34  [main] 	Control Panel Ready
+23:53:36  [Apache] 	Attempting to start Apache app...
+23:53:36  [Apache] 	Status change detected: running
+23:53:36  [mysql] 	Attempting to start MySQL app...
+23:53:36  [mysql] 	Status change detected: running
+23:58:22  [Apache] 	Attempting to stop Apache (PID: 14352)
+23:58:22  [Apache] 	Attempting to stop Apache (PID: 11660)
+23:58:22  [Apache] 	Status change detected: stopped
+23:58:22  [mysql] 	Attempting to stop MySQL app...
+23:58:22  [mysql] 	Status change detected: stopped
+23:58:23  [Apache] 	Attempting to start Apache app...
+23:58:23  [Apache] 	Status change detected: running
+23:58:23  [mysql] 	Attempting to start MySQL app...
+23:58:24  [mysql] 	Status change detected: running
+00:00:40  [Apache] 	Attempting to stop Apache (PID: 6096)
+00:00:40  [Apache] 	Attempting to stop Apache (PID: 13500)
+00:00:40  [mysql] 	Attempting to stop MySQL app...
+00:00:40  [Apache] 	Status change detected: stopped
+00:00:40  [mysql] 	Status change detected: stopped
+00:00:41  [Apache] 	Attempting to start Apache app...
+00:00:41  [Apache] 	Status change detected: running
+00:00:41  [mysql] 	Attempting to start MySQL app...
+00:00:41  [mysql] 	Status change detected: running
+00:07:27  [mysql] 	Attempting to stop MySQL app...
+00:07:27  [mysql] 	Status change detected: stopped
+00:07:28  [Apache] 	Attempting to stop Apache (PID: 10192)
+00:07:28  [Apache] 	Attempting to stop Apache (PID: 15004)
+00:07:28  [Apache] 	Status change detected: stopped
+00:07:32  [main] 	Executing "c:\xampp\mysql"
+00:07:38  [Apache] 	Attempting to start Apache app...
+00:07:39  [Apache] 	Status change detected: running
+00:07:39  [mysql] 	Attempting to start MySQL app...
+00:07:39  [mysql] 	Status change detected: running
+00:08:24  [mysql] 	Attempting to stop MySQL app...
+00:08:24  [mysql] 	Status change detected: stopped
+00:08:42  [Apache] 	Attempting to stop Apache (PID: 15040)
+00:08:42  [Apache] 	Attempting to stop Apache (PID: 12956)
+00:08:43  [Apache] 	Status change detected: stopped
+00:20:08  [mysql] 	Status change detected: running
+00:24:28  [mysql] 	Status change detected: stopped
+00:30:04  [Apache] 	Status change detected: running
+00:30:05  [mysql] 	Status change detected: running
+00:33:25  [Apache] 	Status change detected: stopped
+00:33:25  [mysql] 	Status change detected: stopped
+01:26:03  [main] 	Deinitializing Modules
+01:26:03  [main] 	Deinitializing Control Panel
+
+00:24:24  [main] 	Initializing Control Panel
+00:24:24  [main] 	Windows Version:  Enterprise  64-bit
+00:24:24  [main] 	XAMPP Version: 7.3.4
+00:24:24  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+00:24:24  [main] 	You are not running with administrator rights! This will work for
+00:24:24  [main] 	most application stuff but whenever you do something with services
+00:24:24  [main] 	there will be a security dialogue or things will break! So think 
+00:24:24  [main] 	about running this application with administrator rights!
+00:24:24  [main] 	XAMPP Installation Directory: "c:\xampp\"
+00:24:24  [main] 	Checking for prerequisites
+00:24:24  [main] 	All prerequisites found
+00:24:24  [main] 	Initializing Modules
+00:24:24  [mysql] 	XAMPP MySQL is already running on port 3306
+00:24:24  [main] 	Starting Check-Timer
+00:24:24  [main] 	Control Panel Ready
+00:24:27  [mysql] 	Attempting to stop MySQL app...
+00:24:28  [mysql] 	Status change detected: stopped
+00:27:31  [main] 	Executing "c:\xampp\"
+00:30:04  [Apache] 	Attempting to start Apache app...
+00:30:04  [Apache] 	Status change detected: running
+00:30:05  [mysql] 	Attempting to start MySQL app...
+00:30:05  [mysql] 	Status change detected: running
+00:33:25  [Apache] 	Attempting to stop Apache (PID: 3792)
+00:33:25  [Apache] 	Attempting to stop Apache (PID: 3252)
+00:33:25  [Apache] 	Status change detected: stopped
+00:33:25  [mysql] 	Attempting to stop MySQL app...
+00:33:25  [mysql] 	Status change detected: stopped
+01:26:03  [main] 	Deinitializing Modules
+01:26:03  [main] 	Deinitializing Control Panel
+

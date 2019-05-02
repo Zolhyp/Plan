@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Registro de producto</title> 
+		<link rel="stylesheet" href = "estilos.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+        <style type="text/css">
+			tab{padding-left: 15em}
+			tab2{padding-left: 8.2em}
+			tab3{padding-left: 8.4em}
+			tab4{padding-left: 34.5em}
+			tab5{padding-left: 31em}
+			tab6{padding-left: 40em}
+			tab7{padding-left: 41em}
+			tab8{padding-left: 8em}
+			tab9{padding-left: 38em}
+		</style>
+   
+	</head>
+	<body>
+
+					<!--<h1>Agregar producto</h1>-->
+		<form action = "registrar.php" type="submin" method = "post" class = "form-register">
+			<h1 class=  "form-titulo"><b>Registrar e</b></h1>
+			<div class = "medicamento-inputs" id= "header">
+			<tab5><a href="Agregar.html">Altas</a>
+			<a href="Bajas.html">Bajas</a>
+			<a href="index.php">Modificaciones</a>
+			<a href="Consultas.html">Consultas</a></tab5>
+			<p>
+				<div class="contenedor-inputs">
+					<tab7>Requiere receta:</tab7><br/><br/>
+				<span id =nom>
+					<input type = "text" name = "nombre" placeholder= "Nombre" class = "input-48" />
+				</span>
+				
+				<span id= "rec">
+					<select name = "receta" >
+						<option value = "elige2">Elige opci&oacute;n</option>
+						<option value = "1">S&iacute;</option>
+						<option value = "2">No</option>
+					</select>
+				</span>
+				
+				<br><br>
+				
+				<span id="fec">
+						<input type = "date" name = "fecha" placeholder = "Fecha de caducidad" min = "2018-03-25" 
+																	max = "2900-06-25" step = "1" class = "input-48" />
+				</span>
+								
+				<span id= "lot">											
+					<input type = "text" name = "lote" placeholder = "Número de lote" class = "input-48" />
+				</span>
+				
+				<br><br>
+				
+				<span id= "pres">
+					Presentaci&oacute;n:
+					<tab4>V&iacute;a de administraci&oacute;n</tab4>
+					<br/><br/>
+					<select name = "presentacion" >
+						<option value = "elige3">Elige opci&oacute;n</option> 
+						<option value = "1">Tabletas</option> 
+						<option value = "2">Jarabes</option> 
+						<option value = "3">Aerosol</option> 
+						<option value = "4">Pomada</option>
+						<option value = "5">C&aacute;psulas</option>
+					</select>
+				</span>
+			
+				<span id= "admin">
+					<select name = "administracion">
+						<option value = "elige1">Elige opci&oacute;n</option> 
+						<option value = "1">V&iacute;a oral</option> 
+						<option value = "2">V&iacute;a sublingual</option> 
+						<option value = "3">V&iacute;a t&oacute;pica</option> 
+						<option value = "4">V&iacute;a transd&eacute;rmica</option> 
+						<option value = "5">V&iacute;a oft&aacute;lmica</option>
+						<option value = "6">V&iacute;a &oacute;tica</option>
+						<option value = "7">V&iacute;a intranasal</option>
+						<option value = "8">V&iacute;a inhalatoria</option>
+						<option value = "9">V&iacute;a rectal</option>
+						<option value = "10">V&iacute;a vaginal</option>
+						<option value = "11">V&iacute;a parental</option>
+						<option value = "12">V&iacute;a intravenosa</option>
+						<option value = "13">V&iacute;a muscular</option>
+						<option value = "14">V&iacute;a subcutanea</option>
+					</select>
+					<br>
+				</span>	
+				
+				
+				<span id= "tip">
+				<br>
+				Tipo de medicamento:
+				<tab5>Clase:</tab5> 
+				<br/><br/>
+					<select name = "tipo">
+						<option value = "elige6">Elige opci&oacute;n</option> 
+						<option value = "1">Analg&eacute;sico</option> 
+						<option value = "2">Anti&aacute;cido</option> 
+						<option value = "3">Antial&eacute;rgico</option> 
+						<option value = "4">Antidiarreico</option>
+						<option value = "5">Antiinflamatorio</option>
+						<option value = "6">Antidepresivo</option>
+						<option value = "7">Antipir&eacute;tico</option>
+						<option value = "8">Antitusivo</option>
+						<option value = "9">Laxante</option>
+						<option value = "10">Mucol&iacute;tos</option>
+					</select>
+				</span>
+
+				<span id= "clas">
+					<select name = "clase">
+						<option value = "elige5">Elige opci&oacute;n</option> 
+						<option value = "2">Niño</option> 
+						<option value = "1">Adulto</option> 
+						<option value = "3">Pediatra</option> 
+						<option value = "4">Especial</option>
+					</select>
+				</span>
+				<br/><br/>
+				Dosis:
+				<tab9>Cantidad de medicamento:</tab9>
+				<span id= "dos">
+					<br><br>
+					<input type = "text" name = "dosis" placeholder = "Dósis"  class = "input-5" />
+					<select name = "umd" class = "input-5">
+						<option value = "elige4">Elige opci&oacute;n</option> 
+						<option value = "1">Tabletas</option> 
+						<option value = "2">mcg</option> 
+						<option value = "3">mg</option> 
+						<option value = "4">kg</option>
+						<option value = "5">gr</option>
+						<option value = "6">ml</option>
+						<option value = "7">lt</option>
+						<option value = "8">dC</option>
+					</select>
+					por cada
+					<input type = "text" name = "horas" placeholder = "Tiempo"  class = "input-5" />
+					
+				</span>
+				<span id= "cant"><tab8>
+					<input type = "text" name = "cantidad" placeholder = "Cantidad de medicamento"  class = "input-15" />
+					<select name = "um" class = "input-10">
+						<option value = "elige4">Elige opci&oacute;n</option> 
+						<option value = "9">Tabletas</option>
+						<option value = "1">mcg</option> 
+						<option value = "2">mg</option> 
+						<option value = "3">kg</option>
+						<option value = "4">gr</option>
+						<option value = "5">ml</option>
+						<option value = "6">dl</option>
+						<option value = "7">lt</option>
+						<option value = "8">Unidades</option>
+					</select>
+					</tab8>
+				</span>
+
+				<!--<span id="comp">
+					<br>
+					<input type = "text" name = "componentes" placeholder = "N° de componentes activos" class = "input-10">
+				</span>-->
+				
+				<div class="container">  
+                <br />  
+
+                <div class="form-group">  
+                     <form name="add_name" id="add_name">  
+                          <div class="table-responsive">  
+                               <table class="table table-bordered" id="dynamic_field">  
+                                    <tr>  
+                                         <td><input type="text" name="name[]" placeholder="Componente activo" class="form-control name_list" class="input-5"/></td> 
+                                         <td><input type="text" name="name2[]" placeholder="Cantidad" class="form-control name_list" class="input-5"/></td>  
+                                         <td><select name = "iduma[]" class="comp">
+											<option value = "elige4">Elige opci&oacute;n</option> 
+											<option value = "1">Tabletas</option> 
+											<option value = "2">mcg</option> 
+											<option value = "3">mg</option> 
+											<option value = "4">kg</option>
+											<option value = "5">gr</option>
+											<option value = "6">ml</option>
+											<option value = "7">lt</option>	
+											<option value = "8">dC</option>
+										</select>	</td>  
+                                         <td><button type="button" name="add" id="add" class="btn btn-success">Agregar otro</button></td>  
+                                    </tr>  
+                               </table>  
+                          </div>  
+                     </form>  
+                </div> 
+								
+				<span id="pub">
+					<input type = "text" name = "publico" placeholder = "Precio público" class = "input-48" />
+				</span>
+				
+				<span id="prov">
+					<input type = "text" name = "proveedor" placeholder = "Precio proveedor" class = "input-48" />
+				</span>
+				
+				<br><br>
+				
+				<span id="lab">
+					<input type = "text" name = "laboratorio" placeholder = "Laboratio" class = "input-48" />
+				</span>
+				
+				<span id="exis">
+					<input type = "text" name = "existencias" placeholder = "Existencias" class = "input-48" />
+				</span>
+				
+				<br><br>
+				
+				<span id="cod">
+					<input type = "text" name = "codigo" placeholder = "Código de barras" class = "input-48" />
+				</span>
+				
+				</p>
+				<input type = "submit" name = "agrega" value = "Agregar" class = "btn-agregar"  required />
+				
+				<input type = "button" value = "Regresar" class = "btn-agregar" />
+			</div>
+			</div>
+		</form>
+	</body>
+</html>
+
+
+<script>  
+ $(document).ready(function(){  
+      var i=1, i2=1;  
+      $('#add').click(function(){  
+           i++;
+           $('#dynamic_field').append('<tr id="row'+i+'"><td><input type="text" name="name[]" placeholder="Componente activo" class="form-control name_list" /></td><td><input type="text" name="name2[]" placeholder="Cantidad" class="form-control name_list" /> </td><td><select name = "iduma[]"><option value = "elige4">Elige opci&oacute;n</option><option value = "1">Tabletas</option><option value = "2">mcg</option><option value = "3">mg</option><option value = "4">kg</option><option value = "5">gr</option><option value = "6">ml</option><option value = "7">lt</option><option value = "8">dC</option></select></td><td><button type="button" name="remove" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');  
+       });  
+      $(document).on('click', '.btn_remove', function(){  
+           var button_id = $(this).attr("id");   
+           $('#row'+button_id+'').remove(); 
+      });  
+ });  
+ </script>
+
+
+<!--<input type="button" name="submit" id="submit" class="btn btn-info" value="Submit" 
+class="btn btn-info
+/>  
+
+ $('#submit').click(function(){            
+           $.ajax({  
+                url:"registrar.php",  
+                //method:"POST",  
+                //data:$('#add_name').serialize(),  
+                //success:function(data)  
+                {  
+                     alert(data);  
+                     $('#add_name')[0].reset();  
+                }  
+           });  
+      });
+-->
