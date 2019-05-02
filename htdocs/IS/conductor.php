@@ -3,7 +3,7 @@ header("Content-Type: text/html;charset=utf-8");
  //if(isset($_POST['agregar']) { 	
 	$conexion = mysqli_connect('localhost', 'root', 'root');
 	
-	mysqli_select_db($conexion, 'RB');
+	mysqli_select_db($conexion, 'rb');
 	
 	if(!$conexion){
 		//echo 'error al conectar base';
