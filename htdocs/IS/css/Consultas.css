@@ -1,0 +1,97 @@
+/*a todos los elmentos*/
+
+
+*{
+	box-sizing: border-box;
+	background: white;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background:  #204872;
+} 
+
+h1{
+	color: #fff;
+	text-align: center;
+}
+
+div#left{
+	position: absolute;
+	left: 650px;
+	margin-bottom: 50px;
+}
+
+.form-register{
+	width: 95%;
+	max-width: 700px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+}
+
+.form__titulo{
+	background: deepskyblue;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 5px solid crimson;
+}
+
+.contenedor-inputs{
+	padding: 10px 30px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+input, select{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+
+.input-48{
+	width: 48%;
+}
+
+.input-100{
+	width: 100%;
+}
+
+.input-22{
+	width: 22%;
+}
+
+.input-20{
+	width: 20%;
+}
+
+.input-26{
+	width: 26%;
+}
+
+.input-14{
+	width: 14%;
+}
+
+
+.btn-enviar{
+	padding: 10px 40px;
+	background: crimson;
+	color: #fff;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.btn-enviar:active{
+	transform: scale(1.05);
+}

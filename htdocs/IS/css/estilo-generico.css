@@ -1,0 +1,163 @@
+/*---------------Elementos de la pagina------------------*/
+
+/*un margen general o global para la página*/
+*{
+	margin: 5px;
+}
+.contenedor{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.main{
+	width: 70%;
+
+}
+/*propiedades del encabezado*/
+header{
+	background-color: #058FA2; /*color de fondo*/
+	height: 120px; /*tamanio del encabezado, sera de 120 pixeles de la pagina*/
+	border-radius: 5px; /*redondeo del borde*/
+	text-align: center; /*texto alineado al centro*/
+	height: 120px;
+}
+/*propiedades del navegador*/
+nav{
+	height:10%;
+	background-color: #058CA2;
+	border:2px solid #058CA2;
+	border-radius: 5px;
+	text-align: center;
+}
+/*seccion de la página*/
+section{
+	height:80%;
+	background-color: #058CA2;
+	float:right;
+	width:79%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+section.registro{
+	height:80%;
+	background-color: #fff;
+	float:left;
+	width:100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+/*articulo relacionado*/
+article{
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	height:90%;
+	background-color: #fff;
+	float:right;
+	width:90%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 12px;
+    text-align: left;
+}
+/*la ventana lateral que tendra en el body y contendra
+el menu de opciones de genero*/
+aside{
+	background-color: #058CA2;
+	width:20%;
+	box-sizing: border-box;
+	/*border-radius: 5px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  float: left;
+}
+/*el pie de pagina con la informacion de los creadores*/
+footer{
+	height:15%;
+	background-color: #058FA2;
+	clear:both;
+	border-radius: 5px;
+    text-align: center;
+}
+.oculta{
+	display: none;
+}
+/*ajusta el titulo del header*/
+p.titulo{
+	font-size: 50px;
+}
+p.enlace{
+	text-decoration: underline;
+}
+/*ajusta texto a la derecha*/
+p.derecha{
+	text-align: right;
+}
+/*ajusta el formulario para inicio de sesion en la pagina principal*/
+div.usuario{
+	float: right;
+	margin-top: 1%;
+	margin-right: 0%;
+}
+
+/*ajusta el texto y posicion del contenido del aside*/
+div.genero{
+	margin-top: 3%;
+	margin-left: 4%;
+	text-align: center;
+	font-size: 25px;
+}
+/*botones del nav*/
+.boton-nav{
+	background-color: #92ECF8;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+/*botones externos al nav*/
+.boton-prin{
+	padding: 10px;
+	width: 23%;
+	text-align: center;
+	clear: both;
+	color: black;
+	border-radius: 10px;
+	background: #92ECF8;
+	font-size: 20px
+}
+/*botones del registro de nuevo usuario*/
+.boton-reg{
+	padding: 10px;
+	width: 10%;
+	text-align: center;
+	clear: both;
+	color: black;
+	border-radius: 10px;
+	background: #92ECF8;
+	font-size: 20px
+}
+/*prpiedades de la caja de texto para buscar contenido*/
+.cajatexto{
+	border: solid #91EBF7;
+	color: black;
+	padding: 15px 35px;
+	text-align: left;
+	text-decoration: none;
+	border-radius: 10px;
+}
+/*ajustar imagen a la izquierda en modo flotante*/
+img.logo{
+	float: left;
+	height: 100px; /*altura*/
+	width: 90px; /*anchura*/
+	margin-top: 1%;
+	margin-left: 1%;
+}
